@@ -1,0 +1,19 @@
+# Favicon placeholder
+# In a real implementation, this would be a binary ICO file
+# For now, this serves as a placeholder to prevent 404 errors
+
+# To create a proper favicon:
+# 1. Create a 32x32 pixel icon in ICO format
+# 2. Use an online favicon generator or design tool
+# 3. Replace this file with the actual favicon.ico
+# 4. Consider adding multiple sizes for different devices:
+#    - favicon-16x16.png
+#    - favicon-32x32.png
+#    - apple-touch-icon.png (180x180)
+#    - android-chrome-192x192.png
+#    - android-chrome-512x512.png
+
+# Recommended colors for ChronoBid:
+# Primary: #FF6B35 (Safety Orange)
+# Secondary: #2C3E50 (Steel Blue)
+# Accent: #F39C12 (Construction Yellow)

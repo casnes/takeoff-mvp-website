@@ -1,0 +1,23 @@
+{
+  "name": "takeoff-mvp-website",
+  "version": "1.0.0",
+  "description": "A comprehensive marketing website for ChronoBid Construction Company, built with modern web technologies and optimized for the construction industry.",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "vite": "^5.4.19"
+  }
+}

@@ -1,0 +1,53 @@
+# Robots.txt for ChronoBid Construction Website
+
+User-agent: *
+Allow: /
+
+# Disallow admin areas (if any in the future)
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /private/
+
+# Allow important files for SEO
+Allow: /styles.css
+Allow: /script.js
+Allow: /favicon.ico
+
+# Sitemap location
+Sitemap: https://chronobid.com/sitemap.xml
+
+# Crawl delay (optional - adjust based on server capacity)
+Crawl-delay: 1
+
+# Specific instructions for different crawlers
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+
+# Block known bad bots
+User-agent: BadBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Allow social media crawlers for rich snippets
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
