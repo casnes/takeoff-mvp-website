@@ -17,7 +17,7 @@ const Header = () => {
         <div className="nav-container">
           <Link to="/" className="nav-logo logo-container" aria-label="ChronoBid Home">
             <div className="logo-content">
-              <img src="/Chrono Bid Logo.png" alt="ChronoBid Logo" className="logo-image" />
+              <img src="/public/Chrono Bid Logo.png" alt="ChronoBid Logo" className="logo-image" />
               <span className="logo-text">ChronoBid</span>
             </div>
           </Link>
