@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -21,13 +21,13 @@ body {
 
 /* CSS Variables for Consistent Design */
 :root {
-    /* Primary Colors - Construction Industry Inspired */
-    --primary-color: #FF6B35;          /* Safety Orange */
+    /* Primary Colors - ChronoBid Brand */
+    --primary-color: #FF6B35;          /* ChronoBid Orange */
     --primary-dark: #E55A2B;
     --primary-light: #FF8C5A;
-    --secondary-color: #2C3E50;        /* Steel Blue */
-    --secondary-dark: #1A252F;
-    --secondary-light: #34495E;
+    --secondary-color: #000000;        /* Black */
+    --secondary-dark: #000000;
+    --secondary-light: #333333;
     
     /* Accent Colors */
     --accent-yellow: #F39C12;          /* Construction Yellow */
@@ -42,7 +42,7 @@ body {
     --charcoal: #212529;
     
     /* Typography */
-    --font-primary: 'Arial', sans-serif;
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;

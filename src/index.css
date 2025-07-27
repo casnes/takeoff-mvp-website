@@ -12,10 +12,10 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    color: #374151;
-    background-color: #ffffff;
+    color: var(--dark-gray);
+    background-color: var(--white);
     min-height: 100vh;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -24,28 +24,28 @@ body {
 
 /* CSS Variables for Consistent Design */
 :root {
-    /* Primary Colors - SayBriefly Inspired */
-    --primary-color: #2563eb;          /* Blue */
-    --primary-dark: #1d4ed8;
-    --primary-light: #3b82f6;
-    --secondary-color: #111827;        /* Dark Gray */
-    --secondary-dark: #030712;
-    --secondary-light: #374151;
+    /* Primary Colors - ChronoBid Brand */
+    --primary-color: #FF6B35;          /* ChronoBid Orange */
+    --primary-dark: #E55A2B;
+    --primary-light: #FF8C5A;
+    --secondary-color: #000000;        /* Black */
+    --secondary-dark: #000000;
+    --secondary-light: #333333;
     
     /* Accent Colors */
     --accent-teal: #0d9488;            /* Teal */
     --accent-green: #059669;           /* Green */
-    --accent-orange: #ea580c;          /* Orange */
+    --accent-red: #E74C3C;             /* Alert Red */
     
     /* Neutral Colors */
     --white: #ffffff;
-    --light-gray: #f9fafb;
+    --light-gray: #e5e7eb;
     --medium-gray: #6b7280;
     --dark-gray: #374151;
     --charcoal: #111827;
     
     /* Typography */
-    --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    --font-primary: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
@@ -201,7 +201,7 @@ p {
     left: 0;
     width: 100%;
     background-color: var(--white);
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid var(--light-gray);
     z-index: 1000;
     transition: all var(--transition-medium);
     backdrop-filter: blur(10px);
@@ -230,12 +230,19 @@ p {
 .logo-content {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-image {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo-text {
     font-size: 1.5rem;
     font-weight: var(--font-weight-bold);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     line-height: 1;
     letter-spacing: -0.025em;
 }
@@ -322,7 +329,7 @@ section {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 30%, #1a1a1a 70%, #000000 100%);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-light) 30%, var(--secondary-color) 70%, var(--secondary-color) 100%);
     padding: calc(80px + var(--spacing-xxl)) 0 var(--spacing-xxl) 0;
     min-height: 100vh;
     display: flex;
@@ -746,7 +753,7 @@ section {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-light) 50%, var(--secondary-color) 100%);
     color: var(--white);
     padding: var(--spacing-xxl) 0 var(--spacing-lg) 0;
     border-top: 1px solid rgba(255, 107, 53, 0.2);
@@ -926,7 +933,7 @@ section {
         align-items: center;
         gap: 0;
         padding: 1.5rem 0;
-        border-bottom: 1px solid #e5e7eb;
+        border-bottom: 1px solid var(--light-gray);
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         transition: left var(--transition-medium);
     }
@@ -944,7 +951,7 @@ section {
     .nav-cta {
         margin-top: 1rem;
         padding-top: 1rem;
-        border-top: 1px solid #e5e7eb;
+        border-top: 1px solid var(--light-gray);
     }
     
     h1 {
