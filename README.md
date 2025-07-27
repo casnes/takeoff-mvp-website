@@ -1,6 +1,6 @@
 # ChronoBid Construction Website
 
-A comprehensive marketing website for ChronoBid Construction Company, built with modern web technologies and optimized for the construction industry.
+A comprehensive  website for ChronoBid Construction Company, built with modern web technologies and optimized for the construction industry.
 
 ## Project Overview
 
